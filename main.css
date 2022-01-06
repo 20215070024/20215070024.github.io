@@ -109,7 +109,7 @@ header .logo img {
 
 #mainSlider {
     height: 500px;
-    background: url('ana.jpg') center center no-repeat;
+    background: url('../ana.jpg') center center no-repeat;
     background-size: cover;
 }
 
