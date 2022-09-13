@@ -1,0 +1,305 @@
+
+body{
+    margin: 0px;
+    background-color: rgb(199, 199, 199);
+    font-family: 'Raleway';
+    max-height: 100%;
+}
+
+.ust{
+    background-color: rgb(2, 1, 1);
+    width: auto;
+    height:44px;
+}
+
+
+.header{
+    text-align: center;
+    width: 100%;
+    height: 14%;
+    background-color: rgb(43, 45, 45);
+    display: flex;
+}
+
+.menu{
+    margin-left: 1%;
+    text-decoration: none;
+    color: white;
+}
+.menu ul {
+    display: flex; /* Menüdeki li leri yan yana getirir */
+    color: white;
+    list-style-type:none;
+  }
+  
+  .menu ul li{
+    margin-top: 4%;
+    margin-left: 2%;
+    text-align: right;
+    margin-right: 15%;
+    float: right;
+    width: 28%;
+  }
+
+
+.footer{
+    margin-top:12%;
+    width: 100%;
+    height: 30%;
+    background-color:black;
+}
+
+.baslik1
+{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 22.5px;
+    width:238px;
+    background-color: black;
+    height:60px;
+    display: inline-block;
+
+    
+}
+
+
+.beyazyazi{
+color: white;
+text-decoration: none;
+text-align: center;
+}
+
+.beyazyazi2{
+    color: white;
+    text-decoration: none;
+    text-align:none;
+    }
+    
+    
+.beyazyazi3{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4%;
+    }
+
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    float:center;
+}
+
+
+
+.icon{
+    height: 28px;
+    width: 28px;
+    padding: 4px;
+        padding-right: 20px;
+}
+
+.icon2{
+    height: 34px;
+    width: 34px;
+    padding: 2px;
+        padding-right: 20px;
+        padding-top: 0px;
+}
+
+
+.rsm1{
+    width: 15%;
+    height: 20%;
+    margin-top: 2%;
+    float: right;
+}
+
+    .mka{
+        width: 10%;
+        height: 90%;
+        float: left;
+    }
+
+    .tablo2
+{
+    width: 40%;
+    height: 20%;
+    text-align: left;
+    margin-left: 0%;
+    float: left;
+    padding-left: 0%;
+    font-size: 20px;
+}
+
+.meinfoto{
+    height: 70%;
+    width: 25%;
+    float: center;
+    margin-top: -8.5%;
+    margin-bottom:-10%;
+    margin-left: 30%;
+}
+.h5{
+    width: 20%;
+    height: 15%;
+    text-align: justify;
+    float: center;
+    margin-right: 23%;
+}
+
+    .yazi{
+        padding: 4px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .yazi1{
+        padding: 4px;
+        margin-bottom: 8px;
+        text-align: right;
+    }
+    .yazi5{
+        padding: 4px;
+        margin-bottom: 8px;
+        text-align:center;
+        width: 50%;
+        height: 20%;
+    }
+    @media screen and (max-width: 768px)
+    {
+        .mka{
+            width: 22%;
+            height: 90%;
+            float: left;
+        }
+
+        .menu{
+            margin-left: -5%;
+            text-decoration: none;
+            color: white;
+            margin-top: -6px;
+            margin-right: 1%;
+        }
+
+        .menu ul {
+            display: flex; /* Menüdeki li leri yan yana getirir */
+            list-style-type:none;
+          }
+
+          .menu ul li{
+            margin-top: 5%;
+            margin-left: 0%;
+            margin-right: 5%;
+            text-align: center;
+            float: center;
+            font-size: 11px;
+          }
+
+
+.logo{
+    width: 7rem;
+    height: 4rem;
+    float:center;
+    list-style-type:none; 
+}
+
+
+.beyazyazi3{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 12px;
+}
+
+    .beyazyazi{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 0px;
+        padding-top: 8%;
+        font-size: 12px;
+        }
+    
+
+        .baslik1
+        {
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 2.5em;
+            padding-bottom: 2em;
+            float: center;
+            width:28%;
+            background-color: black;
+            height:4%;
+        
+        
+            
+        }
+
+        .meinfoto{
+            height: 12rem;
+            width: 36%;
+            float: center;
+            margin-top: -4.5rem;
+            margin-bottom:-10%;
+            margin-left: 30%;
+        }
+        .h5{
+            width: 36%;
+            height: 18%;
+            text-align:left;
+            float: center;
+            font-size: 10px;
+            margin-right: 40%;
+            margin-bottom: -15%;
+        }
+        .yazi{
+            padding: 5px;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+
+        .yazi5{
+            width:15em;
+            height: 10em;
+            padding: 4px;
+            margin-bottom: 22%;
+            text-align:center;
+        }
+
+        .rsm1{
+            width: 20%;
+            height: 5rem;
+            margin-top: 2rem;
+            float: right;
+        }
+        .header{
+            text-align: center;
+            width: 100%;
+            height: 4rem;
+            background-color: rgb(43, 45, 45);
+            display: flex;
+        }
+
+        .footer{
+            margin-top:13em;
+            margin-right: 1em;
+            width: 100%;
+            height: 10em;
+            background-color:black;
+        }
+    }
+
+
+
