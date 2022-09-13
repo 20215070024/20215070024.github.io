@@ -191,10 +191,11 @@ text-align: center;
             list-style-type:none;
           }
 
+         
           .menu ul li{
             margin-top: 5%;
-            margin-left: 0%;
-            margin-right: -2em;
+            margin-left: -1em;
+            margin-right: -1em;
             text-align: center;
             float: center;
             font-size: 11px;
