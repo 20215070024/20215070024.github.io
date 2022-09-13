@@ -170,7 +170,7 @@ text-align: center;
         width: 50%;
         height: 20%;
     }
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: 720px)
     {
         .mka{
             width: 22%;
